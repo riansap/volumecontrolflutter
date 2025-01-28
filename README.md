@@ -46,7 +46,7 @@ lib/
 
    ```bash
    # Clone the repository
-   git clone [repository-url]
+   git clone https://github.com/riansap/volumeappflutter.git
 
    # Navigate to project directory
    cd volumeapp
