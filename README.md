@@ -6,6 +6,8 @@ This application serves as both a learning project for Flutter and Flutter Bloc 
 
 My phone volume buttons are broken so I built this app to control my phone's volume using a slider. I hope it can help others too. 😊
 
+![App Screenshot](assets/images/inapp_image.png)
+
 ## Features
 
 - Intuitive volume control with a modern UI
