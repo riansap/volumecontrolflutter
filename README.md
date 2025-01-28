@@ -2,7 +2,7 @@
 
 A Flutter application that provides a clean and modern interface for controlling device volume.
 
-This application serves as both a learning project for Flutter and Flutter Bloc architecture, and a practical example of how to implement a volume control app using the volume_controller package.
+This application serves as a practical example of how to implement a volume control app using the volume_controller package.
 
 My phone volume buttons are broken so I built this app to control my phone's volume using a slider. I hope it can help others too. 😊
 
@@ -20,17 +20,17 @@ My phone volume buttons are broken so I built this app to control my phone's vol
 ```
 lib/
 ├── models/
-│   └── volume.dart         # Volume control logic and state management
+│   └── volume.dart
 ├── screens/
-│   └── volume_control_screen.dart  # Main UI screen for volume control
+│   └── volume_control_screen.dart
 ├── utils/
-│   └── styles.dart         # Global styling constants and theme
-└── main.dart              # Application entry point
+│   └── styles.dart
+└── main.dart
 ```
 
 ### Key Components
 
-- **models/volume.dart**: Manages the volume control logic using the `volume_controller` package. It handles volume changes, mute states, and notifies listeners of updates.
+- **models/volume.dart**: Manages the volume control logic using the `volume_controller` package. It handles volume changes, mute states, and notifies listeners of updates using ChangeNotifier.
 
 - **screens/volume_control_screen.dart**: The main interface of the app, featuring a slider for volume control and a mute toggle button. It also displays the app version.
 
@@ -65,8 +65,6 @@ lib/
 ## Dependencies
 
 - **volume_controller**: For platform-specific volume control
-- **flutter_bloc**: State management
-- **get_it**: Dependency injection
 - **package_info_plus**: App version information
 - **flutter_launcher_icons**: Custom app icon support
 

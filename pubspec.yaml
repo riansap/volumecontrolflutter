@@ -12,14 +12,6 @@ dependencies:
     sdk: flutter
   cupertino_icons: ^1.0.6
   volume_controller: 2.0.7
-  flutter_bloc: ^8.1.4
-  get_it: ^7.6.7
-  injectable: ^2.3.5
-  auto_route: ^7.8.4
-  equatable: ^2.0.5
-  dartz: ^0.10.1
-  logger: ^2.0.2+1
-  provider: ^6.0.5
   flutter_launcher_icons: ^0.14.3
   package_info_plus: ^5.0.1
 
@@ -28,8 +20,6 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^3.0.0
   build_runner: ^2.4.8
-  injectable_generator: ^2.4.1
-  auto_route_generator: ^7.3.2
 
 flutter:
   uses-material-design: true
